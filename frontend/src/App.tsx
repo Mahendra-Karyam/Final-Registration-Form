@@ -259,8 +259,8 @@ function AfterLogin() {
   const email = location.state?.email || "User"; //safely get email, or "User" if none
 
   return (
-    <div  className="mt-12 flex items-center justify-center min-h-screen">
-      <h1 className="text-green-500 text-2xl font-bold ">
+    <div className="h-screen w-screen flex flex-col justify-center items-center">
+      <h1 className="text-green-500 text-2xl font-bold">
         {email} Logged in Successfully!
       </h1>
       <nav className="mt-5">
