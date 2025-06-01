@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "backend.js",
   "scripts": {
+    "build": "npm install",
     "start": "node backend.js",
     "dev": "nodemon backend.js"
   },
