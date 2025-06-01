@@ -282,7 +282,7 @@ function AfterSignUp() {
   return (
     <div className="text-center mt-12">
       <h1 className="text-green-500 text-2xl font-bold">
-        {email} Signed Up in Successfully!
+        {email} Signed Up Successfully!
       </h1>
       <nav className="mt-5">
         <Link to="/">
