@@ -22,7 +22,7 @@ function Page() {
 
     try {
       const res = await axios.post(
-        "http://localhost:3000/login",
+        "https://final-registration-form-backend.onrender.com/login",
         { email, password },
         {
           headers: { "Content-Type": "application/json" },
@@ -77,7 +77,7 @@ function Page() {
 
     try {
       const res = await axios.post(
-        "http://localhost:3000/signup",
+        "https://final-registration-form-backend.onrender.com/signup",
         { name, email, password },
         {
           headers: { "Content-Type": "application/json" },
