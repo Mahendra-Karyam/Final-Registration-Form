@@ -261,7 +261,7 @@ function AfterLogin() {
   return (
     <div className="h-screen w-screen flex flex-col justify-center items-center">
       <h1 className="text-green-500 text-2xl font-bold">
-        {name} Logged in Successfully!
+        {email} Logged in Successfully!
       </h1>
       <nav className="mt-5">
         <Link to="/">
@@ -282,7 +282,7 @@ function AfterSignUp() {
   return (
     <div className="h-screen w-screen flex flex-col justify-center items-center">
       <h1 className="text-green-500 text-2xl font-bold">
-        {name} Signed Up Successfully!
+        {email} Signed Up Successfully!
       </h1>
       <nav className="mt-5">
         <Link to="/">
