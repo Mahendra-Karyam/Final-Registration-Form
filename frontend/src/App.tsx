@@ -173,7 +173,7 @@ function Page() {
 
                   <button
                     type="submit"
-                    className="w-full mt-4 bg-blue-900 text-cyan-100 px-3 py-1 rounded"
+                    className="w-full mt-4 bg-blue-900 text-cyan-100 px-3 py-1 rounded cursor-pointer"
                   >
                     Login
                   </button>
@@ -211,7 +211,7 @@ function Page() {
 
                   <button
                     type="submit"
-                    className="w-full mt-4 bg-blue-900 text-cyan-100 px-3 py-1 rounded"
+                    className="w-full mt-4 bg-blue-900 text-cyan-100 px-3 py-1 rounded  cursor-pointer"
                   >
                     Signup
                   </button>
