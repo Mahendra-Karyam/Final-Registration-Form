@@ -280,7 +280,7 @@ function AfterSignUp() {
   const email = location.state?.email || "User"; //safely get email, or "User" if none
 
   return (
-    <div className="text-center mt-12">
+    <div className="h-screen w-screen flex flex-col justify-center items-center">
       <h1 className="text-green-500 text-2xl font-bold">
         {email} Signed Up Successfully!
       </h1>
