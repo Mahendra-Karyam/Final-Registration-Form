@@ -259,19 +259,17 @@ function AfterLogin() {
   const email = location.state?.email || "User"; //safely get email, or "User" if none
 
   return (
-    <div  className="mt-12 h-screen">
-      <div className="flex justify-center items-center">
-        <h1 className="text-green-500 text-2xl font-bold ">
-          {email} Logged in Successfully!
-        </h1>
-        <nav className="mt-5">
-          <Link to="/">
-            <button className="border-black border-2 px-2 py-1 rounded-sm bg-blue-800 text-cyan-100 cursor-pointer">
-              Logout
-            </button>
-          </Link>
-        </nav>
-      </div>
+    <div  className="mt-12 flex items-center justify-center min-h-screen">
+      <h1 className="text-green-500 text-2xl font-bold ">
+        {email} Logged in Successfully!
+      </h1>
+      <nav className="mt-5">
+        <Link to="/">
+          <button className="border-black border-2 px-2 py-1 rounded-sm bg-blue-800 text-cyan-100 cursor-pointer">
+            Logout
+          </button>
+        </Link>
+      </nav>
     </div>
   );
 }
