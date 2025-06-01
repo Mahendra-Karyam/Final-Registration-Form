@@ -244,7 +244,7 @@ function Page() {
             )}
           </p>
         </div>
-        <div className="mt-10 text-red-500">
+        <div className="mt-10 text-red-500 text-center">
           {message && <h1>{message}</h1>}
         </div>
       </form>
