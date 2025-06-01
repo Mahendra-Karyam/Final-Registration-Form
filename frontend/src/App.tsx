@@ -321,7 +321,7 @@ export default function App() {
 //   const handleLogin = async () => {
 //     setError("");
 //     try {
-//       const res = await fetch("http://localhost:3000/login", {
+//       const res = await fetch("https://final-registration-form-backend.onrender.com/login", {
 //         method: "POST",
 //         headers: { "Content-Type": "application/json" },
 //         body: JSON.stringify({ username, password }),
@@ -341,7 +341,7 @@ export default function App() {
 //   const handleSignUp = async () => {
 //     setError("");
 //     try {
-//       const res = await fetch("http://localhost:3000/signup", {
+//       const res = await fetch("https://final-registration-form-backend.onrender.com/signup", {
 //         method: "POST",
 //         headers: { "Content-Type": "application/json" },
 //         body: JSON.stringify({ username, password }),
